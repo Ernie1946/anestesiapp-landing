@@ -78,7 +78,8 @@ section { padding:80px 0; }
 
 /* FEATURES */
 .features { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
-.features .feature:nth-child(7) { grid-column: 2; }
+.features .feature:nth-child(7) { grid-column: 1; }
+.features .feature:nth-child(8) { grid-column: 3; }
 .feature { background:var(--card); border:1px solid rgba(255,255,255,0.06); border-radius:18px; padding:30px 26px; transition:transform .25s, border-color .25s; }
 .feature:hover { transform:translateY(-6px); border-color:rgba(0,201,177,0.4); }
 .feature .ic { font-size:32px; margin-bottom:16px; display:block; }
@@ -121,6 +122,7 @@ footer .copy { color:var(--sub); font-size:13px; }
 @media (max-width:820px) {
   .features { grid-template-columns:1fr; }
   .features .feature:nth-child(7) { grid-column: 1; }
+  .features .feature:nth-child(8) { grid-column: 1; }
   .pricing { grid-template-columns:1fr; }
   .hero h1 { font-size:40px; }
   .hero p.lead { font-size:17px; }
@@ -162,7 +164,19 @@ footer .copy { color:var(--sub); font-size:13px; }
 <div class="feature"><span class="ic">💊</span><h3>Calculadoras de dosis</h3><p>22 fármacos calculados según el peso del paciente, como apoyo rápido y seguro a tu criterio clínico.</p></div>
 <div class="feature"><span class="ic">💳</span><h3>Control de honorarios</h3><p>Lleva el registro de tus cobros e identifica quién paga: particular, aseguradora, gobierno, hospital o empresa.</p></div>
 <div class="feature"><span class="ic">🖨️</span><h3>Documentos con tu logo</h3><p>Imprime hojas profesionales con tu nombre, cédulas y el logo de tu hospital, listas para anexar al expediente.</p></div>
+<div class="feature"><span class="ic">🎙️</span><h3>Dictado por voz</h3><p>Dicta tus notas de interrogatorio, exploración y laboratorios — la app las transcribe automáticamente.</p></div>
 <div class="feature"><span class="ic">🧾</span><h3>Factura deducible</h3><p>Solicita tu factura fiscal por correo o WhatsApp y deduce tu suscripción como gasto de tu consultorio o práctica profesional.</p></div>
+</div>
+</div>
+</section>
+
+<section style="padding-top:0">
+<div class="wrap">
+<div class="band" style="text-align:center;">
+<div style="font-size:72px; margin-bottom:16px;">🎙️</div>
+<h2>Dicta tus notas, sin escribir una sola palabra</h2>
+<p>Interrogatorio, exploración física, laboratorios — solo habla y AnestesiApp transcribe automáticamente lo que dices, directo en el campo correspondiente. Ideal para cuando tienes las manos ocupadas entre paciente y paciente.</p>
+<a href="https://anestesiapp.com.mx" class="btn-primary">Probar el dictado por voz</a>
 </div>
 </div>
 </section>
